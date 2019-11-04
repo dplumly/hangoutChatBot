@@ -22,13 +22,6 @@ function onMessage(e) {
 }
 
 
-
-
-
-/*
- * Responds to a MESSAGE event in Hangouts Chat.
- * @param {Object} event the event object from Hangouts Chat
- */
  //Setting the names of messangers
 function onMessage(event) {
     var name = "";
@@ -47,18 +40,8 @@ function onMessage(event) {
       return { "text": outSick };
     }
   }
-  
     
-       
-       
-       
-       
-       
-       
-       
-       
-       
- // 
+   // what the bot says when added to threads   
   function onAddToSpace(event) {
     var message = "";
   
