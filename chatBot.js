@@ -22,6 +22,12 @@ function onMessage(e) {
 }
 
 
+
+
+
+
+
+
  //Setting the names of messangers
 function onMessage(event) {
     var name = "";
